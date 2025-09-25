@@ -28,7 +28,8 @@ repository = "https://github.com/budschi/deletelater_nomadoasisimage"
 
 [project.optional-dependencies]
 plugins = [
-  "pdi-nomad-plugin" @ git+https://github.com/PDI-Berlin/pdi-nomad-plugin.git
+
+  "pdi-nomad-plugin @ git+https://github.com/PDI-Berlin/pdi-nomad-plugin.git"
 ]
 jupyter = []
 dev = ["nomad-lab[parsing, infrastructure, dev]>=1.3.4"]
